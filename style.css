@@ -1,0 +1,309 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+input {
+	outline: none;
+}
+input:hover {
+	cursor: pointer;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;	
+	font-weight: 900;
+}
+.logo {
+	color: #00e0d0;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.header {
+	background: url("img/bg_header.png") no-repeat center top / cover;
+	background-size: 100% 100%;
+	
+}
+
+.header2 {
+	background: url("img/team_bg.png") no-repeat center top / cover;
+	background-size: 100% 100%;
+}
+.header3 {
+	background: url("img/test.png") no-repeat center top / cover;
+	background-size: 100% 100%;
+}
+.header4 {
+	background: url("img/video_bg.png") no-repeat center top / cover;
+	background-size: 100% 100%;
+}
+.buttons {
+	margin-bottom: 70px;
+}
+.buttons input {
+	margin-right: 5px;
+}
+.activeDot {
+	border: none;
+	box-shadow: none;
+	background: url("img/active_dot.png") no-repeat center center;
+}
+.dot {
+	border: none;
+	box-shadow: none;
+	background: url("img/dot.png") no-repeat center center;
+}
+
+
+
+
+
+
+
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
+	color: #ffffff;
+
+}
+.menu {
+	list-style: none;
+	margin-top: 30px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.header-title {
+	margin-top: 182px;
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+	text-align: center;
+}
+.header-desc {
+	margin-top: 52px;
+	color: #ffffff;
+	text-align: center;
+}
+.our-story {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.our-story-title {
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 12px;
+
+}
+.our-story-button {
+	display: block;
+	padding: 10px;
+	background: Transparent;
+	color: #00E0D0;
+	border: 1px solid #00E0D0;
+	font-weight: bold;	
+	font-size: 16px;
+	font-family: 'Hammersmith One', sans-serif;
+	margin-top: 54px;
+}
+.our_video-story {
+	background: url("img/video_bg.png") no-repeat center top / cover;
+	background-size: 100% 100%;
+/*	height: 550px;*/
+}
+.our_video-story-title {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 202px;
+}
+.our_video-story-img {
+	margin-top: 202px;
+	margin-bottom: 27px;п
+}
+.video-button {
+	height: 100px;
+	width: 100px;
+	display: block;
+	background: url("img/play.png") no-repeat center center;
+	background-size: 100px 100px;
+	border: none;
+	margin: 200px auto 34px auto;
+}
+
+.video-button:active {
+	box-shadow: none;
+	outline: none;
+}
+.video-button:focus {
+	outline: none;
+}
+.expertise-title {
+	margin-top: 71px;
+	text-align: center;
+}
+.line {
+	display: inline-block;
+	height: 2px;
+	width: 50px;
+	background-color: #C6C4C9;
+}
+.expertise-row {
+	margin-top: 80px;
+	border-bottom: 1px solid #EBEBEB;
+
+}
+.expertise-row2 .expertise-item {
+	padding-top: 40px;
+}
+.expertise-item {
+	text-align: center;
+		padding-bottom: 40px;
+}
+.expertise-item img {
+	margin-bottom: 35px;
+}
+.border_user {
+	border-left: 1px solid #EBEBEB;
+	border-right: 1px solid #EBEBEB;;
+}
+.team {
+	background: url("img/team_bg.png") no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+.team-items {
+	margin-top: 49px;
+	margin-left: 392px;
+	margin-right: 392px;
+	text-align: center;
+}
+.team-title {
+	color: white;
+	text-align: center;
+	margin-top: 71px;
+}
+.team-item {
+	border: 1px solid #EBEBEB;
+}
+.team-items h5 {
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.team-items h6 {
+	color: #fafafa;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+
+.contain {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 49px;
+	text-align: center;
+}
+.t-item:first-child {
+	margin-left: 20.625%;
+	text-align: center;
+}
+.t-item {
+	border: 1px solid #EBEBEB;
+}
+.t-item:last-child {
+	margin-right: 20.625%;
+}
+.t-item-avatar {
+	width: 220px;
+	height: 300px;
+}
+.t-item h5 {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.t-item h6 {
+	color: #fafafa;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+.team-button {
+	margin: 70px auto;
+	text-align: center;
+}
+.button {
+	display: block;
+	margin: 54px auto;
+	padding: 10px;
+	background: Transparent;
+	color: #00E0D0;
+	border: 1px solid #00E0D0;
+	font-weight: bold;	
+	font-size: 16px;
+	font-family: 'Hammersmith One', sans-serif;
+}
+.hover:hover {
+	cursor: pointer;
+}
+.works-top {
+	margin: 70px auto;
+}
+.works-top-right {
+	text-align: right;
+}
+.works-top-right a {
+	color: black;
+	text-decoration: none;
+}
+.works-midle-top {
+	margin: 0px 136px;
+}
+
+.images {
+	padding: 0px;
+	display: flex;
+}
+.images img {
+	margin-right: -4px;
+}
+.hidden {
+	overflow-x: hidden;
+}
+.footer {
+	background: url(img/test.png) no-repeat center center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	text-align: center;
+}
+.footer-title {
+	font-size: 100px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	margin-top: 70px;
+}
+.footer-desc {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+.footer-author-title {
+	text-transform: uppercase;
+	color: white;
+	font-size: 14px;
+}
+
+
+
